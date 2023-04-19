@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-void swapvec(std::vector<int>& a, b[]) {
+void swapvec(std::vector<int>& a,int b[]) {
 
 	for (int i = 0; i < a.size(); ++i) {
 
@@ -25,9 +25,16 @@ int main() {
 
 		std::cout << a[i];
 
-		std::cout << std::endl;
+	}
+
+	std::cout << std::endl;
+
+	for (int i = 0; i < 4; ++i) {
+
+		std::cout << b[i];
 
 	}
 
+	std::cout << std::endl;
 		
 }
